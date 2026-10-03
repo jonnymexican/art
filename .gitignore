@@ -1,0 +1,20 @@
+# local token (never commit)
+secrets.token
+
+# dependencies
+node_modules
+
+# local photos (staged before upload, never committed)
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.avif
+*.heic
+*.heif
+*.tif
+*.tiff
+captions.txt
+.tmp-*
+.env
